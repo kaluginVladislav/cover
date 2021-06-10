@@ -1,0 +1,14 @@
+/* 
+  Localization.strings
+  Cover
+
+  Created by Vladislav Kalugin on 10.06.2021.
+  
+*/
+
+"cover.preset.empty.title" = "Empty";
+"cover.preset.empty.subtitle" = "Add objects to continue";
+"cover.preset.error.title" = "Error";
+"cover.preset.error.subtitle" = "Something went wrong. Please try again or contact support";
+"cover.preset.error.critical.title" = "Error";
+"cover.preset.error.critical.subtitle" = "Sorry, this shouldn't happen. Please contact technical support";

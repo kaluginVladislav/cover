@@ -1,0 +1,14 @@
+/* 
+  Localization.strings
+  Cover
+
+  Created by Vladislav Kalugin on 10.06.2021.
+  
+*/
+
+"cover.preset.empty.title" = "Пусто";
+"cover.preset.empty.subtitle" = "Добавьте объекты чтобы продолжить";
+"cover.preset.error.title" = "Ошибка";
+"cover.preset.error.subtitle" = "Что-то пошло не так. Пожалуйста, повторите снова или обратитесь в тех поддержу";
+"cover.preset.error.critical.title" = "Ошибка";
+"cover.preset.error.critical.subtitle" = "Извините, этого не должно было произойти. Пожалуйста, обратитесь в техподдержку";
