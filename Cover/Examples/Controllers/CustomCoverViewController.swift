@@ -11,19 +11,10 @@ class CustomCoverViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        showCover(title: "Print some text for title", subtitle: "Print some text for subtitle", footnote: "Print some text for footnote", image: UIImage(named: "application.logo"), actions: [.autoRecall(.init(timeInterval: 1, repeats: true, block: { (Timer) in
+            print("Check Network Connection")
+            Timer.invalidate()
+        }))])
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
